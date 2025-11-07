@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feedback Filler</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+      width: 260px;
+    }
+    select, button {
+      width: 100%;
+      margin-top: 10px;
+      padding: 6px;
+    }
+    h3 {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Auto Feedback Filler</h3>
+
+  <label for="sectionSelect">Select Section:</label>
+  <select id="sectionSelect">
+    <option value="1. COURSE CONTENT">1. COURSE CONTENT</option>
+    <option value="2. COURSE DELIVERY">2. COURSE DELIVERY</option>
+    <option value="3. FIELD CONNECTIVITY & RELEVANCE">3. FIELD CONNECTIVITY & RELEVANCE</option>
+    <option value="4. CONTINUOUS EVALUATION / INTERNAL ASSESSMENT & FEEDBACK">4. CONTINUOUS EVALUATION / INTERNAL ASSESSMENT & FEEDBACK</option>
+    <option value="5. PERSONALITY & BEHAVIOUR">5. PERSONALITY & BEHAVIOUR</option>
+    <option value="all">All</option>
+  </select>
+
+  <label for="ratingSelect">Select Rating:</label>
+  <select id="ratingSelect">
+    <option value="Strongly Agree">Strongly Agree</option>
+    <option value="Agree" selected>Agree</option>
+    <option value="Neutral">Neutral</option>
+    <option value="Disagree">Disagree</option>
+    <option value="Strongly Disagree">Strongly Disagree</option>
+  </select>
+
+  <button id="fillBtn">Fill Selected Section</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>

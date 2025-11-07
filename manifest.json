@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Faculty Feedback Autofiller",
+  "version": "1.0",
+  "description": "Automatically fills faculty feedback forms with chosen rating.",
+  "permissions": ["scripting", "tabs", "storage", "activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
